@@ -33,3 +33,7 @@ classes:
           <powershell>
             echo "do something"
           </powershell>
+    exercises:
+      - file: "../exercises/exercise01.md"
+        title: "Exercise 01"
+        syntax: "md"
