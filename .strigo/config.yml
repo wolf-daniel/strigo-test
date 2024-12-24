@@ -1,6 +1,6 @@
 ---
 classes:
-  - class_id: "676a66449c1900057ea131df"
+  - class_id: "676a616b9c1900057ea130b2"
     lab_resources:
       - display_name: "Linux"
         platform_type: "lab"
@@ -17,6 +17,12 @@ classes:
           #!/bin/bash
 
           echo "hello world" > /tmp/file.txt
+    exercises:
+      - file: "../exercises/exercise01.md"
+        title: "Exercise 01"
+        syntax: "md"
+  - class_id: "676a66449c1900057ea131df"
+    lab_resources:
       - display_name: "Windows"
         platform_type: "lab"
         image_platform: "windows"
@@ -32,7 +38,4 @@ classes:
           <powershell>
             echo "do something"
           </powershell>
-    exercises:
-      - file: "../exercises/exercise01.md"
-        title: "Exercise 01"
-        syntax: "md"
+
