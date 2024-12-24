@@ -1,6 +1,7 @@
 ---
 classes:
-  - lab_resources:
+  - class_id: "676a66449c1900057ea131df"
+    lab_resources:
       - display_name: "Lab"
         platform_type: "lab"
         image_platform: "linux"
