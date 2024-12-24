@@ -26,8 +26,6 @@ classes:
           ami_region_mapping:
             eu-west-1:
               image_id: "ami-0afcd9cce919e7a9c"
-            us-east-1:
-              image_id: "ami-asdaksdjkj4kjkasd"
           custom_username: "Administrator"
         post_launch_script: |
           <powershell>
