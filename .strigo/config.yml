@@ -29,7 +29,7 @@ classes:
             us-east-1:
               image_id: "ami-asdaksdjkj4kjkasd"
             custom_username: "Administrator"
-          post_launch_script: |
-            <powershell>
-              echo "do something"
-            </powershell>
+        post_launch_script: |
+          <powershell>
+            echo "do something"
+          </powershell>
