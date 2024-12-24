@@ -23,7 +23,7 @@ classes:
         syntax: "md"
   - class_id: "676a66449c1900057ea131df"
     lab_resources:
-      - display_name: "Windows"
+      - display_name: "Windows test"
         platform_type: "lab"
         image_platform: "windows"
         view_interface: "desktop"
