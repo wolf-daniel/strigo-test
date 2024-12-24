@@ -12,3 +12,7 @@ classes:
             eu-foo-1:
               image_id: "ami-0754c1bf35f85d01f"
           custom_username: "ubuntu"
+        user_data: |
+          #!/bin/bash
+
+          echo "hello world" > /tmp/file.txt
