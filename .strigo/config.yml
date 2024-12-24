@@ -2,7 +2,7 @@
 classes:
   - class_id: "676a66449c1900057ea131df"
     lab_resources:
-      - display_name: "Lab"
+      - display_name: "Linux"
         platform_type: "lab"
         image_platform: "linux"
         view_interface: "terminal"
@@ -17,7 +17,7 @@ classes:
           #!/bin/bash
 
           echo "hello world" > /tmp/file.txt
-      - display_name: "Win"
+      - display_name: "Windows"
         platform_type: "lab"
         image_platform: "windows"
         view_interface: "desktop"
