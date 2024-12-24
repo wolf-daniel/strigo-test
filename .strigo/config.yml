@@ -9,10 +9,27 @@ classes:
         aws_vm_definition:
           machine_size: "t3.micro"
           ami_region_mapping:
-            eu-foo-1:
+            eu-west-1:
               image_id: "ami-0754c1bf35f85d01f"
           custom_username: "ubuntu"
         user_data: |
           #!/bin/bash
 
           echo "hello world" > /tmp/file.txt
+      - display_name: "Win"
+        platform_type: "lab"
+        image_platform: "windows"
+        view_interface: "desktop"
+        cloud_provider: "aws"
+        aws_vm_definition:
+          machine_size: "t3.large"
+          ami_region_mapping:
+            eu-west-1:
+              image_id: "ami-0afcd9cce919e7a9c"
+            us-east-1:
+              image_id: "ami-asdaksdjkj4kjkasd"
+            custom_username: "Administrator"
+          post_launch_script: |
+            <powershell>
+              echo "do something"
+            </powershell>
