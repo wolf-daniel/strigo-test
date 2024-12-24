@@ -5,7 +5,7 @@ classes:
         platform_type: "lab"
         image_platform: "linux"
         view_interface: "terminal"
-        cloud_provider: "aws"
+        cloud_provider: "foo"
         aws_vm_definition:
           machine_size: "t3.micro"
           ami_region_mapping:
