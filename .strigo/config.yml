@@ -5,7 +5,7 @@ classes:
       - display_name: "Linux"
         platform_type: "lab"
         image_platform: "linux"
-        view_interface: "terminal"
+        view_interface: "foo"
         cloud_provider: "aws"
         aws_vm_definition:
           machine_size: "t3.micro"
