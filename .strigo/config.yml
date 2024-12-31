@@ -16,7 +16,7 @@ classes:
         user_data: |
           #!/bin/bash
 
-          echo "hello world!!" > /tmp/file.txt
+          echo "hello world" > /tmp/myfile.txt
     exercises:
       - file: "../exercises/exercise01.md"
         title: "Exercise 01"
