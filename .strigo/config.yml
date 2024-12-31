@@ -10,8 +10,8 @@ classes:
         aws_vm_definition:
           machine_size: "t3.micro"
           ami_region_mapping:
-            foo-west-1:
-              image_id: "ami-0754c1bf35f85d01f"
+            eu-west-1:
+              image_id: "ami-0754c1bf35f85d01d"
           custom_username: "ubuntu"
         user_data: |
           #!/bin/bash
