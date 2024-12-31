@@ -11,7 +11,7 @@ classes:
           machine_size: "t3.micro"
           ami_region_mapping:
             eu-west-1:
-              image_id: "ami-0754c1bf35f85d01d"
+              image_id: "ami-0754c1bf35f85d01f"
           custom_username: "ubuntu"
         user_data: |
           #!/bin/bash
