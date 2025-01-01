@@ -1,7 +1,7 @@
 ---
 classes:
   - lab_resources:
-      - display_name: "Linux 4"
+      - display_name: "Linux 5"
         platform_type: "lab"
         image_platform: "linux"
         view_interface: "terminal"
