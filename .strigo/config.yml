@@ -2,7 +2,7 @@
 classes:
   - class_id: "676a616b9c1900057ea130b2"
     lab_resources:
-      - display_name: "Linux 2"
+      - display_name: "Linux 3"
         platform_type: "lab"
         image_platform: "linux"
         view_interface: "terminal"
