@@ -7,7 +7,7 @@ classes:
         view_interface: "desktop"
         cloud_provider: "aws"
         aws_vm_definition:
-          machine_size: "t3.small"
+          machine_size: "t3.foo"
           ami_region_mapping:
             eu-west-1:
               image_id: "ami-0754c1bf35f85d01f"
