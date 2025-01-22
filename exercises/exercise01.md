@@ -3,4 +3,5 @@
 This is your first exercise!
 1. Do this
 1. Do that
+2. Now this
 
