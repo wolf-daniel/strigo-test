@@ -1,6 +1,8 @@
 ---
 classes:
   - lab_resources:
+      - display_name: "Cloud Account"
+        lab_library_item_id: "6ad8f0000000000000ca0001"
       - display_name: "Linux 7a"
         platform_type: "lab"
         image_platform: "linux"
