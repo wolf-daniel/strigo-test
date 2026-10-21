@@ -1,6 +1,8 @@
 ---
 classes:
   - lab_resources:
+      - display_name: "VM from lib"
+        lab_library_item_id: "698ce46d8ccd9d268cd118b8"
       - display_name: "Cloud Account"
         lab_library_item_id: "6ad8f0000000000000ca0001"
       - display_name: "Linux 7a"
